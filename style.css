@@ -1,3 +1,32 @@
-.nav {
- background-color: black;
+.nav ul {
+ background-color: #d9b5a3;
+ display: inline-block;
+ list-style-type: none;
+ padding-top: 10px;
+ margin: auto;
+ padding-left: 0;
+ padding-right: 0;
+}
+
+.nav li {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #5d3622;
+  font-weight: bold;
+}
+
+.nav .left {
+  display: inline-flex;
+}
+
+.nav .right {
+  float: right;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d9b5a3;
 }
