@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d9b5a3;
+}
+/** navigation **/
 .nav ul {
  background-color: #d9b5a3;
  display: inline-block;
@@ -22,11 +28,12 @@
 .nav .right {
   float: right;
 }
+/** header **/
+.header {
+  background-image: url("images/benny.jpg");
+}
 
-
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #d9b5a3;
+.header img {
+  width: 600px;
+  padding-left: 200px;
 }
