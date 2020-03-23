@@ -48,6 +48,7 @@ body {
   width: 100%;
   background-color: #d9b5a3;
   opacity: .8;
+  z-index: 100;
 }
 /* header */
 .header {
@@ -111,6 +112,40 @@ body {
 }
 
 .sunset .carousel-text a {
+  float: left;
+}
+
+/* carousel 2 */
+
+.carousel2 img {
+  width: 240px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #9c7562;
+}
+
+.carousel2 .owl-carousel .flowers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.carousel2 .owl-carousel .sleep {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.carousel2 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.sleep .carousel-text a {
+  float: right;
+}
+
+.flowers .carousel-text a {
   float: left;
 }
 
