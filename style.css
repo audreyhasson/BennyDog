@@ -20,6 +20,7 @@ body {
   padding-right: 10px;
   color: #5d3622;
   font-weight: bold;
+  font-size: 20px;
   font-family: 'Delius Unicase', bold;
   opacity: 1;
 }
@@ -67,7 +68,7 @@ body {
 }
 
 .carousel1 img {
-  width: 200px;
+  width: 240px;
   border-width: 10px;
   border-style: solid;
   border-color: #9c7562;
@@ -76,11 +77,13 @@ body {
 .carousel1 .owl-carousel .fountain {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .carousel1 .owl-carousel .sunset {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .carousel1 {
@@ -90,4 +93,31 @@ body {
 
 .carousel-text {
   padding: 10px;
+  font-family: 'Patrick Hand';
+  font-size: 24px;
+  color: #5d3622;
+}
+
+.carousel-text a {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #5d3622;
+  padding: 5px;
+  margin: 10px;
+}
+
+.fountain .carousel-text a {
+  float: right;
+}
+
+.sunset .carousel-text a {
+  float: left;
+}
+
+/* footer style */
+footer {
+  color: #5d3622;
+  font-family: 'Patrick Hand';
+  text-size: 8px;
+  text-align: center;
 }
