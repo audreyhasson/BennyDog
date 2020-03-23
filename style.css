@@ -60,3 +60,34 @@ body {
 }
 
 /* styling the first carousel */
+
+.all-carousels {
+  width: 1000px;
+  margin: auto;
+}
+
+.carousel1 img {
+  width: 200px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #9c7562;
+}
+
+.carousel1 .owl-carousel .fountain {
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel1 .owl-carousel .sunset {
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel1 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.carousel-text {
+  padding: 10px;
+}

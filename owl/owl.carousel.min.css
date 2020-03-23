@@ -18,12 +18,6 @@
 .owl-carousel .owl-item{min-height:1px;float:left;-webkit-backface-visibility:hidden;-webkit-touch-callout:none}
 .owl-carousel .owl-item img
 {display:block;
-  width: 200px;
-  border: 10px;
-  border-color: #875627;
-}
-.owl-carousel .owl-item .carousel-pics img {
-  width: 30px;
 }
 .owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{display:none}
 .no-js .owl-carousel,.owl-carousel.owl-loaded{display:block}
