@@ -48,7 +48,7 @@ body {
   background-color: #d9b5a3;
   opacity: .8;
 }
-/** header **/
+/* header */
 .header {
   background-color: #5d3622;
 }
@@ -58,3 +58,5 @@ body {
   display: flex;
   margin: auto;
 }
+
+/* styling the first carousel */
