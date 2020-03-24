@@ -1,8 +1,18 @@
+/* style guide */
 body {
   margin: 0;
   padding: 0;
   background-color: #d9b5a3;
 }
+
+.journal-text a:hover {
+  text-transform: uppercase;
+}
+
+.all-carousels a:hover {
+  text-transform: uppercase;
+}
+
 /** navigation **/
 .nav ul {
  background-color: #d9b5a3;
@@ -66,6 +76,11 @@ body {
 .all-carousels {
   width: 1000px;
   margin: auto;
+}
+
+.all-carousels a {
+  text-decoration: none;
+  color: #5d3622;
 }
 
 .carousel1 img {
@@ -155,4 +170,74 @@ footer {
   font-family: 'Patrick Hand';
   text-size: 8px;
   text-align: center;
+}
+
+/* styling journal */
+
+.journal-head {
+  height: 180px;
+  font-family: 'Delius Unicase';
+  font-weight: bold;
+  font-size: 24px;
+  color: #5d3622;
+  background-color: #9c7562;
+}
+
+.journal-head img {
+  width: 300px;
+  margin: none;
+}
+
+.cursive-and-number {
+  width: 750px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  float: center;
+  margin: auto;
+}
+
+.journal-body {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-self: flex-start;
+  width: 1000px;
+  margin: auto;
+}
+
+.journal-image {
+  width: 500px;
+  margin: auto;
+}
+
+.journal-body img {
+  width: 400px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+}
+
+.journal-body p {
+  width: 500px;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.journal-text {
+  font-family: 'Patrick Hand';
+  color: #5d3622;
+  font-size: 24px;
+  margin: none;
+}
+
+.journal-text a {
+  text-decoration: none;
+  color: #5d3622;
+  border-style: solid;
+  border-color: #5d3622;
+  border-width: 3px;
+  padding: 5px;
+  float: right;
 }
