@@ -202,7 +202,6 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  align-self: flex-start;
   width: 1000px;
   margin: auto;
 }
