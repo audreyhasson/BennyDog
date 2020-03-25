@@ -240,3 +240,39 @@ footer {
   padding: 5px;
   float: right;
 }
+
+/* about page */
+
+.about-head {
+  background-color: #5d3622;
+  height: 200px;
+}
+
+.about-head img {
+  width: 500px;
+  display: flex;
+  margin: auto;
+}
+
+.about-main {
+  width: 1000px;
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Patrick Hand';
+  color: #5d3622;
+  font-size: 24px;
+}
+
+.about-main img {
+  width: 700px;
+}
+
+.about-main p {
+  background-color: #d9b5a3;
+  border: 5px solid #9c7562;
+  padding: 5px;
+  margin-left: -100px;
+}
