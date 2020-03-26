@@ -313,7 +313,8 @@ footer {
     width: 900px;
   }
   footer p {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
   }
   html, body {
     height: 100%;
