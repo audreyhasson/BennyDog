@@ -276,3 +276,75 @@ footer {
   padding: 5px;
   margin-left: -100px;
 }
+
+.mobile {
+  display: none;
+}
+/* mobile! */
+
+@media screen and (max-width: 992px) {
+  .nav .right {
+    display: none;
+  }
+  .nav {
+    position: static;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-self: center;
+  }
+  .nav ul {
+    padding: 0;
+    margin: 0;
+  }
+  .nav li {
+    height: auto;
+    padding: 20px;
+    font-size: 40px;
+  }
+  .header {
+    width: inherit;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .header img {
+    width: 900px;
+  }
+  footer p {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+
+  html {
+      display: table;
+      margin: auto;
+  }
+  p, a {
+    font-size: 45px;
+  }
+  .all-carousels img {
+    width: 400px;
+  }
+  .carousel1 .owl-carousel .fountain, .carousel1 .owl-carousel .sunset, .carousel2 .owl-carousel .flowers, .carousel2 .owl-carousel .sleep {
+    display: flex;
+    align-items: flex-start;
+  }
+  .carousel1 .owl-carousel p, .carousel2 .owl-carousel p {
+    margin: 0;
+  }
+  .journal-body {
+    flex-direction: column;
+  }
+  .journal-text p {
+    width: 700px;
+    margin: auto;
+  }
+  .journal-text {
+    margin: auto;
+  }
+  
+}
