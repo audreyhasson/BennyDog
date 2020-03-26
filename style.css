@@ -340,11 +340,37 @@ footer {
     flex-direction: column;
   }
   .journal-text p {
-    width: 700px;
-    margin: auto;
+    width: inherit;
+    margin: 10px;
   }
   .journal-text {
     margin: auto;
   }
-  
+  .journal-text a {
+    margin: 20px;
+  }
+  .journal-head {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+  }
+  .journal-head img {
+    width: 600px;
+  }
+  .about-head {
+    display: flex;
+    justify-content: center;
+  }
+  .about-head img {
+    width: 700px;
+    margin-top: -50px;
+  }
+  .about-main {
+    flex-direction: column;
+  }
+  .about-main p {
+    margin: 10px;
+    border: none;
+    font-size: 45px;
+  }
 }
